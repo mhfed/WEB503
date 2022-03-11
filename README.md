@@ -7,6 +7,7 @@
 2. Tạo file .babelrc
    `{ "presets" : ["env", "stage-0"] }`
 3. package.json
-   `{ "start": "nodemon ./src/app.js --exec babel-node -e js" }`
+   `"start": "nodemon ./src/app.js --exec babel-node -e js"`
+   <br/>
    Nếu bị lỗi babel-node
-   `{npm i -g babel-node}`
+   `npm i -g babel-node`
